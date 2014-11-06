@@ -2,7 +2,7 @@
 Partitioning
 ============
 In this writeup compared two methods of partitioning, one based on routing
-queries in Ruby (gem) and the other based on PL/pgSQL scrips on PostgreSQL
+queries in Ruby (gem) and the other based on PL/pgSQL scripts on PostgreSQL
 server.  Both methods use existing partitioning supported by Postgres starting
 version 8.2.
 
