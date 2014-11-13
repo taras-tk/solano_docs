@@ -98,4 +98,11 @@ Problems
     gem
       N/A
 
+#. Foreign keys to a partitioned table
+
+   Foreign keys to a partitioned table cannot work since the table is actually
+   empty.  Work around is drop the foreign keys pointing to the partitioned
+   table or to create a "shadow" table and to update it once the partitioned
+   table is changed.
+
 END
